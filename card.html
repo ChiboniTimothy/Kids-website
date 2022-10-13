@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="card.css" />
+    <script src="https://checkout.flutterwave.com/v3.js"></script>
+
+    <title>Payment</title>
+  </head>
+  <body>
+    <section class="main-content">
+      <h1>Payment</h1>
+      <hr />
+      <button class="close-window">&times;</button>
+      <form action="" method="post" id="payForm">
+        <label>Full name: </label>
+        <input type="text" id="fullName" placeholder="full names" required />
+        <label>Country: </label>
+        <input type="text" id="Country" placeholder="country " required />
+        <label>Phone Number: </label>
+        <input
+          type="tel"
+          id="phoneNumber"
+          placeholder="phone number"
+          required
+        />
+        <label>Email: </label>
+        <input
+          type="email"
+          id="email"
+          placeholder="example@example.com"
+          required
+        />
+        
+        <input type="submit" value="continue" />
+      </form>
+    </section>
+    <script src="payment.js"></script>
+  </body>
+</html>

@@ -1,0 +1,70 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: url(./images/clients/kids.jpg);
+    background-repeat: no-repeat;
+    
+  }
+  
+  h1 {
+    text-align: center;
+    color: #fff;
+    font-size: 2.5em;
+    text-transform: capitalize;
+    margin-top: 50px;
+  }
+  
+  hr {
+    margin: 20px 0;
+  }
+  
+  .main-content {
+    width: 50%;
+    margin: auto;
+  }
+  
+  label {
+    font-size: 1.2em;
+    color: rgb(250, 235, 235);
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border-radius: 5px;
+    color: #111;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    color: rgb(17, 16, 16);
+    text-transform: capitalize;
+    font-size: larger;
+    font-weight: bolder;
+  
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  .close-window {
+    position: absolute;
+    top: 0.3rem;
+    right: 12.5rem;
+    font-size: 3rem;
+    color: rgb(239, 240, 245);
+    cursor: pointer;
+    border: none;
+    background: none;
+  }
+  
